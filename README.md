@@ -66,7 +66,7 @@ Langkah yang dilakukan:
 * Korelasi ≈ **0.267**
 * Hubungan lebih kuat dibanding popularity, namun masih lemah
 
-👉 Jumlah vote sedikit berpengaruh terhadap rating, tetapi bukan faktor utama.
+👉 Jumlah vote sedikit berpengaruh terhadap rating, tetapi bukan faktor utama
 
 ---
 
@@ -83,7 +83,7 @@ vote_average ~ popularity + vote_count
 * R² ≈ **0.004**
 * Signifikan secara statistik, namun kontribusi sangat kecil
 
-👉 Model tidak mampu menjelaskan rating dengan baik.
+👉 Model tidak mampu menjelaskan rating dengan baik
 
 ---
 
@@ -113,7 +113,7 @@ vote_average ~ popularity + vote_count
 * Vote count memiliki pengaruh kecil
 * **Genre memiliki pengaruh paling jelas terhadap rating film**
 
-👉 Hal tersebut menunjukkan bahwa kualitas film lebih dipengaruhi oleh jenis konten dibanding popularitasnya.
+👉 Hal tersebut menunjukkan bahwa kualitas film lebih dipengaruhi oleh jenis konten dibanding popularitasnya
 
 ---
 
@@ -127,7 +127,7 @@ Sebaliknya, **genre merupakan faktor yang lebih berpengaruh dalam menentukan rat
 
 ---
 
-## 🧑‍💻 Tools
+## 💻 Tools
 
 * R
 * ggplot2
@@ -136,7 +136,7 @@ Sebaliknya, **genre merupakan faktor yang lebih berpengaruh dalam menentukan rat
 
 ---
 
-## 📎 Catatan
+## Catatan
 
 Dataset tidak disertakan dalam repository.
 Silakan download dari sumber publik (Kaggle / TMDB), lalu jalankan kode yang tersedia.
