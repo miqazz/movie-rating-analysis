@@ -1,20 +1,16 @@
-# 🎬 Movie Rating Analysis
+# Movie Rating Analysis
 
 ## Apakah Popularitas Menentukan Kualitas Film?
 
 ---
 
-## 🧠 Latar Belakang
+## Latar Belakang
 
-Banyak orang memilih film berdasarkan popularitas. Film yang trending sering dianggap memiliki kualitas yang lebih baik.
-
-Namun, apakah benar popularitas mencerminkan kualitas film?
-
-Project ini mencoba menjawab pertanyaan tersebut menggunakan pendekatan data.
+Banyak orang memilih film berdasarkan popularitas. Film yang trending sering dianggap memiliki kualitas yang lebih baik. Namun, apakah benar popularitas mencerminkan kualitas film? Project ini mencoba menjawab pertanyaan tersebut menggunakan pendekatan data.
 
 ---
 
-## 🎯 Tujuan
+## Tujuan
 
 * Menganalisis hubungan antara **popularity** dan **rating film**
 * Menganalisis hubungan antara **vote count** dan **rating**
@@ -33,7 +29,7 @@ Dataset berasal dari TMDB Movies Dataset (~10.000 film), dengan variabel utama:
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 Langkah yang dilakukan:
 
@@ -44,7 +40,7 @@ Langkah yang dilakukan:
 
 ---
 
-## 📈 Analisis
+## Analisis
 
 ---
 
@@ -74,7 +70,7 @@ Langkah yang dilakukan:
 
 ---
 
-## 🤖 Modeling
+## Modeling
 
 Model regresi linear digunakan:
 
@@ -91,18 +87,18 @@ vote_average ~ popularity + vote_count
 
 ---
 
-## 🎬 Genre Analysis (Key Insight 🔥)
+## Genre Analysis (Key Insight)
 
 ![Genre Plot](plot_genre.png)
 
-### 🟢 Genre dengan rating tertinggi:
+### Genre dengan rating tertinggi:
 
 * War
 * History
 * Animation
 * Drama
 
-### 🔴 Genre dengan rating terendah:
+### Genre dengan rating terendah:
 
 * Horror
 * Thriller
@@ -111,31 +107,23 @@ vote_average ~ popularity + vote_count
 
 ---
 
-## 💥 Insight Utama
+## Insight Utama
 
 * Popularity tidak berpengaruh signifikan terhadap rating
 * Vote count memiliki pengaruh kecil
 * **Genre memiliki pengaruh paling jelas terhadap rating film**
 
-👉 Ini menunjukkan bahwa kualitas film lebih dipengaruhi oleh jenis konten dibanding popularitasnya.
+👉 Hal tersebut menunjukkan bahwa kualitas film lebih dipengaruhi oleh jenis konten dibanding popularitasnya.
 
 ---
 
-## 🎯 Kesimpulan
+## Kesimpulan
 
 Berdasarkan analisis:
 
 > Popularitas bukan indikator utama kualitas film
 
 Sebaliknya, **genre merupakan faktor yang lebih berpengaruh dalam menentukan rating film**.
-
----
-
-## 🚀 Pengembangan Selanjutnya
-
-* Feature engineering pada genre
-* Menambahkan variabel lain (budget, durasi, dll)
-* Menggunakan model machine learning yang lebih kompleks
 
 ---
 
@@ -152,6 +140,3 @@ Sebaliknya, **genre merupakan faktor yang lebih berpengaruh dalam menentukan rat
 
 Dataset tidak disertakan dalam repository.
 Silakan download dari sumber publik (Kaggle / TMDB), lalu jalankan kode yang tersedia.
-
----
-plot genre 
